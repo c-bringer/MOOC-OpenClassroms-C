@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B007D68427022C1D001C83D3 /* dico.c in Sources */ = {isa = PBXBuildFile; fileRef = B007D68327022C1D001C83D3 /* dico.c */; };
 		B02BE83826FC99D0009A57D5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B02BE83726FC99D0009A57D5 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B007D68127022BE6001C83D3 /* dico.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dico.txt; sourceTree = "<group>"; };
+		B007D68227022C1D001C83D3 /* dico.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dico.h; sourceTree = "<group>"; };
+		B007D68327022C1D001C83D3 /* dico.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dico.c; sourceTree = "<group>"; };
 		B02BE83426FC99D0009A57D5 /* Pendu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pendu; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02BE83726FC99D0009A57D5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +61,9 @@
 		B02BE83626FC99D0009A57D5 /* Pendu */ = {
 			isa = PBXGroup;
 			children = (
+				B007D68227022C1D001C83D3 /* dico.h */,
+				B007D68327022C1D001C83D3 /* dico.c */,
+				B007D68127022BE6001C83D3 /* dico.txt */,
 				B02BE83726FC99D0009A57D5 /* main.c */,
 			);
 			path = Pendu;
@@ -119,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B007D68427022C1D001C83D3 /* dico.c in Sources */,
 				B02BE83826FC99D0009A57D5 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
